@@ -53,5 +53,3 @@ This project is a simple job portal designed and implemented in PHP. It allows u
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to expand and customize this README according to your project's specifics. Let me know if you need further assistance!
