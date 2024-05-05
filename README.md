@@ -50,6 +50,4 @@ This project is a simple job portal designed and implemented in PHP. It allows u
 
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
-
 ---
