@@ -28,7 +28,7 @@
           ]
           );
 
-          echo "Done";
+          header("location: login.php");
 
       }else{
         echo "<script> alert('Passwords do not match')</script>";
