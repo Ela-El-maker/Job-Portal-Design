@@ -6,13 +6,13 @@
   if(isset($_POST['submit'])){
 
     if(empty($_POST['username']) || empty($_POST['email']) || empty($_POST['password'])){
-      echo "<div class = 'alert alert-danger bg-danger text-white'> Some inputs are empty </div>";
+      echo "<script> alert('Some inputs are empty')</script>";
     }else{
       $username = $_POST['username'];
       $email = $_POST['email'];
       $password = $_POST['password'];
       $repassword = $_POST['re-password'];
-      //$image = $_POST['web-coding.png'];
+      $image = 'pngwing.com.png';
 
 
       //checking password match
@@ -31,7 +31,7 @@
           echo "Done";
 
       }else{
-        echo "<div class = 'alert alert-danger bg-danger text-white'> Password do not match </div>";
+        echo "<script> alert('Passwords do not match')</script>";
       }
     }
   }
